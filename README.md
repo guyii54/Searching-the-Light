@@ -19,5 +19,7 @@ In the competition one of 12 lights is randomly turned on in given time. The tas
 ## Author
 
 Yuntong Ye (yuntongye@outlook.com)
+
 Qiang Fu
+
 Yujia Liu
