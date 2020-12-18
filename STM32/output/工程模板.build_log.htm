@@ -1,0 +1,228 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: F Microsoft, Microsoft, LIC=FQQBS-L6RLK-9XXUW-Q39FH-RY7SU-RNV4Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\stm32.uvprojx
+Project File Date:  07/22/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling cs.c...
+linking...
+Program Size: Code=12724 RO-data=336 RW-data=112 ZI-data=1040  
+FromELF: creating hex file...
+".\output\工程模板.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Load "C:\\Users\\PC\\Desktop\\stm32_cb（7.24）\\stm32_cb\\stm32\\stm32\\output\\工程模板.axf" 
+Set JLink Project File to "C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.91b, compiled Sep 15 2014 09:17:56
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+op\\stm32_cb（7.24）\\stm32_cb\\stm32\\stm32\\output\\工程模板.axf" 
+Set JLink Project File to "C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.91b, compiled Sep 15 2014 09:17:56
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+isplay - give arg types
+  void LED_Display();   //LED闪烁
+.\APP\LED\LED.h(8): warning:  #1295-D: Deprecated declaration LED_OFF - give arg types
+  void LED_OFF();       //LED关闭
+.\APP\LED\LED.h(9): warning:  #1295-D: Deprecated declaration LED_ON - give arg types
+  void LED_ON();                //LED打开
+.\APP\LED\LED.h(10): warning:  #1295-D: Deprecated declaration LED_Change - give arg types
+  void LED_Change();    //LED改变状态
+.\APP\LED\LED.h(11): warning:  #1295-D: Deprecated declaration LED_Rxsuccess - give arg types
+  void LED_Rxsuccess(); //UART中接收成功闪烁
+.\APP\LED\LED.h(12): warning:  #1295-D: Deprecated declaration LED_Rxfail - give arg types
+  void LED_Rxfail();            //UART中接收失败闪烁
+user\public.c: 6 warnings, 0 errors
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling usart.c...
+compiling printf.c...
+compiling encoder.c...
+.\APP\LED\led.h(7): warning:  #1295-D: Deprecated declaration LED_Display - give arg types
+  void LED_Display();   //LED闪烁
+.\APP\LED\led.h(8): warning:  #1295-D: Deprecated declaration LED_OFF - give arg types
+  void LED_OFF();       //LED关闭
+.\APP\LED\led.h(9): warning:  #1295-D: Deprecated declaration LED_ON - give arg types
+  void LED_ON();                //LED打开
+.\APP\LED\led.h(10): warning:  #1295-D: Deprecated declaration LED_Change - give arg types
+  void LED_Change();    //LED改变状态
+.\APP\LED\led.h(11): warning:  #1295-D: Deprecated declaration LED_Rxsuccess - give arg types
+  void LED_Rxsuccess(); //UART中接收成功闪烁
+.\APP\LED\led.h(12): warning:  #1295-D: Deprecated declaration LED_Rxfail - give arg types
+  void LED_Rxfail();            //UART中接收失败闪烁
+APP\encoder\encoder.c: 6 warnings, 0 errors
+compiling cs.c...
+compiling time.c...
+APP\time\time.c(109): warning:  #1-D: last line of file ends without a newline
+  }
+APP\time\time.c: 1 warning, 0 errors
+compiling exti.c...
+compiling beep.c...
+APP\beep\beep.c(50): warning:  #1-D: last line of file ends without a newline
+  }
+APP\beep\beep.c: 1 warning, 0 errors
+compiling pwm.c...
+compiling steering.c...
+APP\steering\steering.c(80): warning:  #1-D: last line of file ends without a newline
+  }
+APP\steering\steering.c: 1 warning, 0 errors
+compiling key.c...
+compiling LED.c...
+APP\LED\LED.h(7): warning:  #1295-D: Deprecated declaration LED_Display - give arg types
+  void LED_Display();   //LED闪烁
+APP\LED\LED.h(8): warning:  #1295-D: Deprecated declaration LED_OFF - give arg types
+  void LED_OFF();       //LED关闭
+APP\LED\LED.h(9): warning:  #1295-D: Deprecated declaration LED_ON - give arg types
+  void LED_ON();                //LED打开
+APP\LED\LED.h(10): warning:  #1295-D: Deprecated declaration LED_Change - give arg types
+  void LED_Change();    //LED改变状态
+APP\LED\LED.h(11): warning:  #1295-D: Deprecated declaration LED_Rxsuccess - give arg types
+  void LED_Rxsuccess(); //UART中接收成功闪烁
+APP\LED\LED.h(12): warning:  #1295-D: Deprecated declaration LED_Rxfail - give arg types
+  void LED_Rxfail();            //UART中接收失败闪烁
+APP\LED\LED.c: 6 warnings, 0 errors
+compiling rf.c...
+compiling SysTick.c...
+compiling buffer.c...
+linking...
+Program Size: Code=12768 RO-data=336 RW-data=112 ZI-data=1040  
+FromELF: creating hex file...
+".\output\工程模板.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Load "C:\\Users\\PC\\Desktop\\stm32_cb（7.24）\\stm32_cb\\stm32\\stm32\\output\\工程模板.axf" 
+Set JLink Project File to "C:\Users\PC\Desktop\stm32_cb（7.24）\stm32_cb\stm32\stm32\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.91b, compiled Sep 15 2014 09:17:56
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 500 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
