@@ -1,7 +1,7 @@
 # Searching the Light: Smart Car
 
 This is a project for the 6th National University Students' Opt-Sci-Tech Competition in 2018. We finally won the 3rd prize.
-![](Representation.jpg)
+![](https://github.com/guyii54/Searching-the-Light/blob/main/Representation.jpg)
 
 ## Task
 
@@ -9,7 +9,7 @@ In the competition one of 12 lights is randomly turned on in given time. The tas
 
 ## Demo
 
-![](demo.gif)
+![](https://github.com/guyii54/Searching-the-Light/blob/main/demo.gif)
 
 ## Env
 
