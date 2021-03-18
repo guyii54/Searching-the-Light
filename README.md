@@ -7,7 +7,7 @@ This is a project for the 6th National University Students' Opt-Sci-Tech Competi
 In the competition one of 12 lights is randomly turned on in given time. The task of the smart car is to run towards the shining light and put out the light.
 
 ## Demo
-<div align=center><img src="demo.gif" width="1000" height="600" /></div>
+<div align=center><img src="demo.gif" width="1000" height="500" /></div>
 
 
 
